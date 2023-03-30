@@ -14,7 +14,7 @@ public class Actividad02 {
     public static void main(String[] args) {
         
         //Declaracion y Asignacion de Variables
-        String [] asignaturas = {"Matematicas", "Fisica", "Quimica", "Historia", "Lengua"};
+        String [] asignaturas = {"Matemáticas", "Física", "Quimica", "Historia", "Lengua"};
         int [] notas = new int [asignaturas.length];
         
         //Carga de Notas en el Vector notas

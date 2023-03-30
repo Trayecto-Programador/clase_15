@@ -80,7 +80,7 @@ public class FormularioActividad01 extends javax.swing.JFrame {
         numero = Integer.parseInt(txtNumero.getText());
 
         if (numero < 0) {
-            JOptionPane.showMessageDialog(null, "El numero ingresado esta fuera de rango");
+            JOptionPane.showMessageDialog(null, "El numero ingresado no es positivo");
         } else {
             if (numero >= 0 && numero < 10) {
                 JOptionPane.showMessageDialog(null, "El numero ingresado esta conformado por un digito");
@@ -91,7 +91,7 @@ public class FormularioActividad01 extends javax.swing.JFrame {
                     if (numero >= 100 & numero < 1000) {
                         JOptionPane.showMessageDialog(null, "El numero ingresado esta conformado por tres digitos");
                     } else {
-                        JOptionPane.showMessageDialog(null, "El numero ingresado contiene mas de tres  digito");
+                        JOptionPane.showMessageDialog(null, "ERROR !!! | El numero ingresado contiene mas de tres  digito");
                     }
                 }
             }
